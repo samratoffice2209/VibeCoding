@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alex Moore — Photographer</title>
+    <meta name="description" content="Portfolio and services of professional photographer Alex Moore: portraits, weddings, lifestyle, and commercial work." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="container nav">
+        <a class="logo" href="#top" aria-label="Alex Moore home">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l3.09 6.26L22 10.27l-5 4.87L18.18 22 12 18.77 5.82 22 7 15.14l-5-4.87 6.91-1.01L12 3z" fill="currentColor"/></svg>
+          <span>Alex Moore</span>
+        </a>
+        <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <ul id="primary-nav" class="nav-links">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <h1>Timeless photography for modern brands and humans</h1>
+            <p>Portraits, weddings, lifestyle, and commercial stories captured with natural light and thoughtful composition.</p>
+            <div class="hero-cta">
+              <a href="#portfolio" class="btn btn-primary">View Work</a>
+              <a href="#contact" class="btn btn-ghost">Book a Session</a>
+            </div>
+            <ul class="hero-badges" aria-label="Highlights">
+              <li>10+ yrs experience</li>
+              <li>Based in NYC • Available worldwide</li>
+              <li>Published in Frame & Light</li>
+            </ul>
+          </div>
+          <figure class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1513415564515-763d91423bdd?q=80&w=1200&auto=format&fit=crop" alt="Photographer holding a camera with soft backlight" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <div class="container section-header">
+          <h2>Selected Work</h2>
+          <p>Curated projects across portraits, weddings, lifestyle, and commercial campaigns.</p>
+        </div>
+        <div class="container portfolio-grid" role="list">
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1520975922219-88393a9130e0?q=80&w=1600&auto=format&fit=crop" aria-label="Open portrait photo">
+            <img src="https://images.unsplash.com/photo-1520975922219-88393a9130e0?q=80&w=800&auto=format&fit=crop" alt="Soft portrait in natural light" />
+            <span class="chip">Portrait</span>
+          </button>
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1521337580377-4b1d6f72b4f4?q=80&w=1600&auto=format&fit=crop" aria-label="Open wedding photo">
+            <img src="https://images.unsplash.com/photo-1521337580377-4b1d6f72b4f4?q=80&w=800&auto=format&fit=crop" alt="Bride and groom in candid moment" />
+            <span class="chip">Weddings</span>
+          </button>
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1600&auto=format&fit=crop" aria-label="Open lifestyle photo">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop" alt="Lifestyle coffee scene" />
+            <span class="chip">Lifestyle</span>
+          </button>
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1600&auto=format&fit=crop" aria-label="Open commercial photo">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop" alt="Commercial tech workspace" />
+            <span class="chip">Commercial</span>
+          </button>
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1520975922219-88393a9130e0?q=80&w=1600&auto=format&fit=crop" aria-label="Open portrait photo">
+            <img src="https://images.unsplash.com/photo-1533681018184-68bd1d883546?q=80&w=800&auto=format&fit=crop" alt="Editorial portrait with shadow play" />
+            <span class="chip">Editorial</span>
+          </button>
+          <button class="card" role="listitem" data-lightbox="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1600&auto=format&fit=crop" aria-label="Open nature photo">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800&auto=format&fit=crop" alt="Golden hour landscape" />
+            <span class="chip">Nature</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="services" class="section alt">
+        <div class="container section-header">
+          <h2>Services</h2>
+          <p>Flexible packages tailored to your story and budget.</p>
+        </div>
+        <div class="container cards-grid">
+          <article class="service-card">
+            <h3>Portrait Sessions</h3>
+            <p>Personal branding, headshots, and lifestyle portraits with direction and styling.</p>
+            <ul>
+              <li>1–2 hours on location</li>
+              <li>20+ edited images</li>
+              <li>Delivery in 5 business days</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Weddings & Elopements</h3>
+            <p>Documentary coverage focused on candid moments and timeless details.</p>
+            <ul>
+              <li>Half-day to full-day coverage</li>
+              <li>Private online gallery</li>
+              <li>Prints and albums available</li>
+            </ul>
+          </article>
+          <article class="service-card">
+            <h3>Commercial Campaigns</h3>
+            <p>Creative production for brands: lookbooks, product lifestyle, and campaigns.</p>
+            <ul>
+              <li>Concept and shot list</li>
+              <li>Team coordination</li>
+              <li>Usage licensing guidance</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <figure class="about-photo">
+            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=1000&auto=format&fit=crop" alt="Alex in studio holding a camera" />
+          </figure>
+          <div>
+            <h2>About Alex</h2>
+            <p>I'm a New York–based photographer crafting honest, cinematic imagery. My work is grounded in natural light, clean color, and a relaxed, collaborative approach.</p>
+            <p>When not shooting, I mentor emerging photographers and explore the Catskills with my dog.</p>
+            <ul class="about-stats">
+              <li><strong>200+</strong> clients served</li>
+              <li><strong>25</strong> brand campaigns</li>
+              <li><strong>50</strong> weddings documented</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section alt">
+        <div class="container section-header">
+          <h2>Kind Words</h2>
+          <p>Notes from clients I loved working with.</p>
+        </div>
+        <div class="container testimonials">
+          <blockquote>
+            <p>Alex captured our day with such ease and warmth. Every photo feels like a memory.</p>
+            <footer>— Jamie & Priya</footer>
+          </blockquote>
+          <blockquote>
+            <p>Professional, creative, and dependable. Our campaign exceeded expectations.</p>
+            <footer>— Taylor, Brand Manager</footer>
+          </blockquote>
+          <blockquote>
+            <p>The best headshots I've ever had. I felt comfortable and confident the whole time.</p>
+            <footer>— Deja, Actor</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div>
+            <h2>Let’s make something beautiful</h2>
+            <p>Tell me about your project or event. I respond within 24 hours.</p>
+            <ul class="contact-details">
+              <li><a href="mailto:hello@alexmoore.photo">hello@alexmoore.photo</a></li>
+              <li><a href="tel:+12125551234">+1 (212) 555‑1234</a></li>
+              <li>NYC • Available worldwide</li>
+            </ul>
+          </div>
+          <form class="contact-form" name="contact" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden"><label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required autocomplete="name" />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="form-field">
+              <label for="service">Service</label>
+              <select id="service" name="service">
+                <option>Portrait</option>
+                <option>Wedding</option>
+                <option>Commercial</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <p class="form-success" role="status" aria-live="polite" hidden>
+              Thanks! Your message has been sent.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="logo" href="#top">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l3.09 6.26L22 10.27l-5 4.87L18.18 22 12 18.77 5.82 22 7 15.14l-5-4.87 6.91-1.01L12 3z" fill="currentColor"/></svg>
+          <span>Alex Moore</span>
+        </a>
+        <nav aria-label="Social links">
+          <ul class="social">
+            <li><a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z" stroke="currentColor" stroke-width="1.5"/></svg></a></li>
+            <li><a href="#" aria-label="Behance"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h5a3 3 0 110 6H4V8zm0 6h5a3 3 0 010 6H4v-6zm11-6h5M14 12h6m-6 6h6" stroke="currentColor" stroke-width="1.5"/></svg></a></li>
+            <li><a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 5c-.8.4-1.6.6-2.5.8.9-.6 1.6-1.4 2-2.4-.9.5-1.9.9-3 1.1A4.3 4.3 0 0015.5 3c-2.4 0-4.3 2-4.3 4.3 0 .3 0 .7.1 1A12.2 12.2 0 013 4.1a4.2 4.2 0 00-.6 2.1c0 1.5.8 2.8 2 3.6-.7 0-1.4-.2-2-.6v.1c0 2.2 1.6 4.1 3.7 4.5-.4.1-.9.2-1.4.2-.3 0-.6 0-.8-.1.6 2 2.5 3.5 4.7 3.6A8.7 8.7 0 012 19.5 12.3 12.3 0 008.7 21c7.8 0 12.1-6.4 12.1-11.9v-.5c.8-.5 1.5-1.3 2-2.1z" stroke="currentColor" stroke-width="1.5"/></svg></a></li>
+          </ul>
+        </nav>
+        <small>© <span id="year"></span> Alex Moore. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <button class="lightbox-close" aria-label="Close">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <img class="lightbox-image" alt="Expanded portfolio image" />
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
